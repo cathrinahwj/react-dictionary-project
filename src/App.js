@@ -1,7 +1,6 @@
 import book from "./book.png";
 import React from "react";
 import Dictionary from "./Dictionary";
-
 import "./App.css";
 
 export default function App() {
@@ -12,7 +11,7 @@ export default function App() {
           <img src={book} className="App-book" alt="book" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
           <small>
